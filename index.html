@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Bangers&family=Bebas+Neue&family=Bruno+Ace+SC&family=Caesar+Dressing&family=Gruppo&family=Iceland&family=Montserrat:wght@600;900&family=Rajdhani&family=Righteous&family=Rubik+80s+Fade&family=Russo+One&family=Sarpanch&family=Wallpoet&display=swap" rel="stylesheet">
+    <!-- AOS     -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- MODAL -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- FONTAWESOME  -->
+    <script src="https://kit.fontawesome.com/6a543084f0.js" crossorigin="anonymous"></script>
+    <!-- JSMAIL -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <!-- PATERN CSS -->
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Charly Guinel</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav>
+        <a href="index.html" class="nav-logo"><span>C</span>G</a>
+        <ul>
+            <button class="box hamburger">
+                <div class="container-lines">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </button>
+            <li class="nav-items"><a href="#aboutMe">Présentation</a></li>
+            <li class="nav-items"><a href="#competences">Compétences</a></li>
+            <li class="nav-items"><a href="#projet">Projets</a></li>
+            <li class="nav-items"><a href="#contact">Contact</a></li>
+            <li class="nav-items down"><a id="download" href="Guinel.Charly-CV.png" download><i class="fa-solid fa-download"></i>CV</a></li>
+        </ul>
+        <div class="dropdown-menu">
+            <div class="pattern-dots-sm">
+                <span class="title-dots"><i class="fa-solid fa-code"></i>Menu</span>
+            </div>
+            <li><a href="#aboutMe">Présentation</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projet">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="nav-items down"><a id="download" href="Guinel.Charly-CV.png" download><i
+                        class="fa-solid fa-download"></i>CV</a></li>
+        </div>
+    </nav>
+    <!-- MAIN -->
+    <div class="head-Contain">
+        <img class="pic" src="img/cg.png" alt="charly guinel">
+        <div class="head-desc">
+            <div class="pattern-dots-sm">_PORTFOLIO</div>
+            <h1>Bienvenue</h1>
+            <!-- <h1 class="animate__animated animate__zoomInDown ">Bienvenue</h1> -->
+            <h2>Moi c'est Charly Guinel.</h2>
+            <div class="typing">
+                <span class="text first-text">Je suis développer</span>
+                <span class="text sec-text">..</span>
+            </div>
+            <p> <i class="fa-solid fa-terminal"></i> Je recherche une alternance dans le developpment web, convaincu que ma passion pour le développement web, et ma soif d'apprendre me permettront de relever les défis qui se présenteront à moi. <br><br>
+            <i class="fa-solid fa-terminal"></i> L'alternance, c'est une opportunité pour moi de combiner mes connaissances théoriques avec une expérience pratique en entreprise. Travailler aux côtés de professionnels me permettra d'approfondir mes compétences techniques et d'acquérir une compréhension approfondie des processus de développement web.
+            </p>
+            <!-- <button>Découvrez-moi<i class="fa-solid fa-circle-arrow-down"></i></button> -->
+        </div>
+    </div>
+    <!-- ABOUT ME -->
+    <section id="aboutMe" class="aboutMe">
+        <h2 class="about-title" data-aos="zoom-in"  data-aos-duration="750">À propos de moi</h2>
+
+        <div class="aboutTop"  data-aos="zoom-in"  data-aos-duration="1750">
+            <div class="about">
+                <div class="pattern-dots-sm">
+                    <span class="title-dots"><i class="fa-solid fa-code"></i>Ma Reconversion_</span>
+                </div>
+                <p>Après 10 ans dans la boulangerie, il était temps pour moi de rendre le tablier, et de me consacré à ma
+                    passion l'informatique. Pour cela, j'ai décidé d'entamer une reconversion professionnelle en tant que
+                    Développer Web & Web Mobile. <br><br> J'ai pour cela intégrer cette formation dans l'établissement Arinfo
+                    Nantes. <br> Une formation pleine de rebondissement, où je me suis totalement épanoui ! Et qui n'a fait que
+                    conforter mes attentes envers ce métier. <br> La finalité de cette formation était d'être capable: <br> -
+                    Développer la partie Front-end & Back-end d'une application web ou web mobile en intégrant différentes
+                    recommandations et autres normes.<br><br>
+                    <i class="fa-solid fa-trophy"></i> OBTENTION - du titre professionnel: Développeur web et web mobile. -
+                    Reconnu par l’Etat et inscrit au répertoire national des certifications professionnelles (RNCP), de niveau 5
+                    (bac+2).
+                </p> <br>
+            </div>
+            <img src="img/bureau.jpg" alt="image de bureau">
+        </div>
+    
+        <div class="aboutBottom">
+            <img src="img/cg-computer.jpg" alt="ordinateur avec ligne de code">
+
+            <div class="about">
+                <div class="pattern-dots-sm">
+                    <span class="title-dots"><i class="fa-solid fa-code"></i>Mon futur, dans le développement web_</span>
+                </div>
+    
+                <p>Je souhaite poursuivre mes études dans ce domaine,pour approfondir mes
+                    connaissances et mettre en pratique les notions étudiées, dès la rentrée prochaine, avec le centre de
+                    formation MyDigitalSchool de Nantes. <br> En tant que développeur web, pour un Bachelor 3
+                    en alternance pendant un an.<br><br> Rigoureux, autonome et déterminé, je recherche activement une entreprise en
+                    alternance.<br> Pour y réaliser de beaux projets, que ce sois seul ou en équipe. Toutes expériences est
+                    gratifiantes, pour parvenir à mes objectifs professionnels. <br> Ayant connu le rythme de l’alternance par
+                    mon passé, je suis convaincu de cette manière d’apprendre. <br> Je suis disponible sur Nantes 44 et ses alentours, ainsi que Cholet 49.
+                 </p>     
+            </div> 
+        </div>
+    </section>
+
+
+    <!-- GIT - GITHUB -->
+    <section id="git">
+        <div class="pattern-dots-sm">
+            <span class="title-dots"><i class="fa-solid fa-code"></i>L'outil de versionning Git_</span>
+        </div>
+
+        <div class="headGit">
+            <h2>Comment j'utilise git <span>?</span></h2>
+            <img src="img/Git-White.png" alt="git logo">
+        </div>
+
+        <div class="containGit">
+            <p> <i class="fa-solid fa-code-branch"></i> Pour pouvoir ménée à bien mes projets, il est indispensable d'utiliser l'outil de versionning git !
+            </p>
+
+                <ul>
+                    <li>- Vérifier le status de mes fichiers</li>
+                    <li>- Création de branches</li>
+                    <li>- Ce déplacer dans les branches</li>
+                    <li>- Réaliser des commits</li>
+                    <li>- Push le projet sur GitHub</li>
+                </ul>    
+        </div>
+    </section>
+        
+
+    <!-- MES COMPÉTENCES -->
+    <div id="competences" class="competences">
+        <h2 class="competences-title" data-aos="zoom-in" data-aos-duration="850">Mes compétences</h2>
+    
+        <p>Lors de ma formation de développeur et en réalisant des projets personnels en tant qu'autodidacte.   <br> J'ai acquis différentes compétences dans le développement web.
+        </p>
+        <div class="skills">
+            <div id="divFront" class="skills-item front">
+                <div class="frontBg"></div>
+                <div class="pattern-dots-sm">
+                    <h3>FRONT-END</h3>
+                </div>
+                <p><i class="fa-regular fa-window-maximize"></i> Utilisation de logicel tels que Photoshop, Figma pour réalisation de Wireframes et autres... <br> <br>
+                <i class="fa-solid fa-laptop-code"></i> Création et
+                    intégration de sites web pour DESKTOP et reponsive pour MOBILE, Accessibles et répondant aux
+                    normes. <br> <br>
+                    <i class="fa-solid fa-terminal"></i> Les technologies que j'utilise sont: <br> HTML, CSS, Javascript/Jquery utilisation du framework Bootstrap, et VueJS</p>
+            </div>
+            <div class="ice">
+                <h3 id="front-end">FRONT</h3>
+                <img src="img/iceberg.png" alt="illustration iceberg ">
+                <h3 id="back-end">BACK</h3>
+            </div>
+            <div id="divBack" class="skills-item back">
+                <div class="backBg"></div>
+                <div class="pattern-dots-sm">
+                    <h3>BACK-END</h3>
+                </div>
+                <p><i class="fa-solid fa-laptop-code"></i> Développement de sites web en PHP, création et gestion de bases de données, avec interaction en requêtes SQL.<br> <br>
+                    
+                <i class="fa-regular fa-file-code"></i> Pour obtenir des sites web dynamique, création d'un CRUD pour le back-end, ses applications sont développées en favorisant la sécurité des bases de données. Ainsi que la protection des utilisateurs et de la gestion des rôles.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MY PROJECT -->
+    <div id="projet" class="projet">
+        <h2 data-aos="zoom-in" data-aos-duration="750">Mes projects</h2>
+        <p>Voici les différents projets que j'ai réalisés seul pour le moment, Mais bientôt de nouveaux projets devrait voir le jour...</p>
+        <div class="projet-contain">
+            <a href="https://todo-cg.netlify.app" target="_blank">
+                <div class="site3">
+                    <div class="overlay3">
+                        <h2>Todo Managment</h2>
+                        <p><i class="fa-solid fa-circle-info"></i>Gestionnaire de listes de tâches (todo-list), Utilisation du localStorage</p>
+                        <p> <i class="fa-solid fa-code"></i> site crée a partir de ses langages: </p>
+                        <div class="langages">
+                            <img src="img/htmllogo.png" alt="logo html">
+                            <img src="img/csslogo.png" alt="logo css">
+                            <img id="js" src="img/jslogo.png" alt="logo Javascript">
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="http://obelias.epizy.com/index.php" target="_blank">
+                <div class="site">
+                    <div class="overlay">
+                        <h2>Obélias</h2>
+                        <p><i class="fa-solid fa-circle-info"></i>Site FICTIF ! projet e-commerce</p>
+                        <p><i class="fa-solid fa-code"></i>site crée a partir de ses langages: </p>
+                        <div class="langages">
+                            <img src="img/htmllogo.png" alt="logo html">
+                            <img src="img/csslogo.png" alt="logo css">
+                            <img id="php" src="img/phplogo.png" alt="logo php">
+                            <img id="mysql" src="img/mysqllogo.png" alt="logo mysql">
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="http://foot-camp.epizy.com/index.php" target="_blank">
+                <div class="site2">
+                    <div class="overlay2">
+                        <h2>Foot Camp</h2>
+                        <p><i class="fa-solid fa-circle-info"></i>Site FICTIF ! projet e-commerce</p>
+                        <p><i class="fa-solid fa-code"></i>site crée a partir de ses langages: </p>
+                        <div class="langages">
+                            <img src="img/htmllogo.png" alt="logo html">
+                            <img src="img/csslogo.png" alt="logo css">
+                            <img id="bootstrap" src="img/bootstrap.png" alt="logo bootstrap">
+                            <img id="php" src="img/phplogo.png" alt="logo php">
+                            <img id="mysql" src="img/mysqllogo.png" alt="logo mysql">
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://rpc-cg.netlify.app" target="_blank">
+                <div class="site5">
+                    <div class="overlay5">
+                        <h2>Game</h2>
+                        <p><i class="fa-solid fa-circle-info"></i>Rock / Paper / scissors</p>
+                        <p><i class="fa-solid fa-code"></i>site crée a partir de ses langages: </p>
+                        <div class="langages">
+                            <img src="img/htmllogo.png" alt="logo html">
+                            <img src="img/csslogo.png" alt="logo css">
+                            <img id="js" src="img/jslogo.png" alt="logo Javascript">
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://api-cg.netlify.app" target="_blank">
+                <div class="site4">
+                    <div class="overlay4">
+                        <h2>Api</h2>
+                        <p><i class="fa-solid fa-circle-info"></i>Appel API {JSON} Placeholder</p>
+                        <p><i class="fa-solid fa-code"></i>site crée a partir de ses langages: </p>
+                        <div class="langages">
+                            <img src="img/htmllogo.png" alt="logo html">
+                            <img src="img/csslogo.png" alt="logo css">
+                            <img id="vue" src="img/vuelogo.png" alt="logo vueJs">
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="information" data-aos="fade-down"
+        data-aos-duration="2000">
+            <div class="footer-link">
+                <h2>Informations</h2>
+                <p><i class="fa-solid fa-location-dot"></i>Disponible sur Nantes 44 et ses alentours, et  Cholet 49</p>
+            </div>
+
+            <div class="footer-link">
+                <h2>Retrouvez-moi !</h2>
+                <div class="link">
+                    <a href="https://www.linkedin.com/in/charly-guinel/" target="_blank"> <i
+                            class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/GuinelC" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- FORM CONTACT -->
+        <div class="form-container" data-aos="fade-up"
+        data-aos-duration="2000">
+            <h2>Contactez-Moi</h2>
+            <p>N'hésitez pas à me contacter, pour tous renseignements complémentaires...</p>
+            <form method="POST" id="my-form">
+                <div class="inputBox">
+                    <input type="text" id="name" required>
+                    <span>Nom</span>
+                </div>
+                <div class="inputBox">
+                    <input type="email" id="email" required>
+                    <span>Email</span>
+                </div>
+                <div class="inputBox">
+                    <input type="text" id="subject" required><br>
+                    <span>Objet</span>
+                </div>
+                <div class="inputBox">
+                    <textarea id="message" required></textarea><br>
+                    <span>Message</span>
+                </div>
+                <button id="submit" type="submit">Envoyer <i class="fa-solid fa-envelope"></i></button>
+            </form>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
