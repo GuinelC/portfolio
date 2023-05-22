@@ -244,6 +244,7 @@ nav a:hover {
     color: white;
     width: 55%;
     height: auto;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     padding: 15px;
     border-radius: 8px;
