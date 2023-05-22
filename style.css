@@ -25,6 +25,7 @@ nav {
     padding: 0 20px;
     border-radius: 8px;
     box-sizing: border-box;
+    -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
     position: sticky;
     top: 2px;
@@ -170,7 +171,6 @@ nav a:hover {
 
 /* --- DROPDOWN MENU --- */
 .dropdown-menu {
-    /* backdrop-filter: blur(15px); */
     display: none;
     position: absolute;
     right: 1px;
