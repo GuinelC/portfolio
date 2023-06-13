@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -227,7 +228,7 @@ nav a:hover {
     background-image: url(img/webdev.jpg);
     background-size: 100% 102vh;
     background-repeat: no-repeat;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .pic {
